@@ -1,0 +1,95 @@
+.main {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+h1 {
+  font-family: 'Kalam', cursive;
+  font-size:60px;
+}
+p {
+  font-family: 'Kalam', cursive;
+}
+
+.cartLandingPage {
+    width:50%;
+    height:39vw;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+.imgDiv {
+  margin-top: 20px;
+  width: 95%;
+  height: 39vw;
+  display:flex;
+
+}
+
+.heroImg {
+  width: 100%;
+  height: 100%;
+}
+
+.products-header {
+    margin-top:20px;
+    width:95%;
+}
+
+.card-top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: #fff;
+  background-clip: border-box;
+  border-radius: .25rem;
+}
+
+.item img {
+  width: 64px;
+}
+
+.item {
+  margin: 0px 15px;
+  text-align: center;
+}
+
+  .item a:hover {
+    color: #FF735C;
+  }
+
+.card {
+  padding: 10px;
+  margin: 40px;
+  text-align:center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+  margin-top:5px;
+  transition: 0.3s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card img:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.btn {
+  background-color: #FF735C;
+}
+
+
+
